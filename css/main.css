@@ -1,0 +1,174 @@
+html{
+	font-size: 16px;
+}
+
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1em;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+/* removed margin 0 auto */
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: black;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+h1 {
+	font-size: 1.875em;
+}
+h2 {
+    font-size:1.5em;
+}
+h3 {
+	font-size: 1.125em;
+}
+h4 {
+	font-size: 0.75em;
+}
+?/* removed padding 0 30*/
+p {
+	font-size: 0.875em;
+	line-height: 1.5em;
+
+}
+/*added ul margin*/
+ul{
+	margin: 0;
+}
+
+/*The widths are in a percentage!*/
+/*removed height 110px, boarder-bottom 3px solid #77a466 and margin 0 auto*/
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	width: 100%;
+}
+/*removed float*/
+header h1 {
+	margin: 0;
+	padding: 38px 0;
+	width:100%;
+	border-bottom: 3px solid #77a466;
+}
+header h1 span {
+	color: #77a466;
+}
+?/*changed padding to 20 px, added width and removed float*/
+header nav {
+	padding: 20px 0;
+	width: 100%
+}
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+/*changed px to ems, added line-height, removed displlay:inline, added list-stlye*/
+header nav ul li {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size:0.875em;
+	padding:10px 0;
+	line-height: 2em;
+	list-style: none;
+}
+header nav ul li a{
+	text-decoration: none;
+	color:#77a466;
+}
+
+/*The widths are in a percentage!*/
+/*removed margin and clear:both*/
+.top-section,
+.bottom-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+/*removed .main-image*/
+/*added border-bottom*/
+.main-image img {
+	width: 100%;
+	border-bottom: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+
+/*removed .main title*/
+.main-title h3 {
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.main-title p {
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+/*removed height and float*/
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	border-top: 1px solid #eee;
+}
+/*removed section-oneh4,.section-two, .section-two h4,.section-three h4*/
+
+
+.menu {
+	list-style: none;
+	padding: 0;
+}
+.menu li {
+	padding: 10px 0;
+	color:#77a466;
+}
+
+.reviews {
+	color: #333;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+.address {
+	font-size: 1em;
+	line-height: 1.7em;
+}
+
+/*The widths are in a percentage!*/
+/* removed margin,height, clear:both*/
+footer {
+	border-top: 2px solid #eee;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-top: 3px solid #eee;
+	width: 100%;
+
+}
+footer span {
+	font-family: 'Wisdom Script', cursive;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 0.875;
+}
